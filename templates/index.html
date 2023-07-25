@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fetch Data with AJAX</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <style>
+   #e{
+    margin:20px;
+   }
+  </style>
+
+</head>
+{% load static %}
+<body>
+    <button id="fetchDataBtn">Fetch Data</button>
+    <div id="dataContainer"></div>
+     <button id="e" onclick="my()">click here to hid data</button>
+    
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
